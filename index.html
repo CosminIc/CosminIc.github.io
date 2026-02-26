@@ -78,52 +78,82 @@
 
 <body>
     <!-- Header -->
-    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
-        <div class="container d-flex justify-content-between align-items-center">
-            <a class="navbar-brand h1" href="index.html">
-                <img src="assets/img/apple-icon.png" alt="Logo" class="img-fluid" style="width: 100px;">
-                <span class="text-dark h5">Servicii Profesionale SSM și PSI - Tecuci</span> 
-            </a>
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+  <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
+    <div class="container d-flex justify-content-between align-items-center">
 
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
-                <div class="flex-fill mx-xl-5 mb-3">
-                    <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.html">Acasa</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.html">Despre noi</a>
-                        </li>
-                        
-						         <li class="nav-item dropdown">
-                <a class="nav-link btn-outline-primary rounded-pill px-3 dropdown-toggle" href="#" id="serviciiDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Servicii
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="serviciiDropdown">
-                    <li><a class="dropdown-item" href="Serviciu-SSM.html">SSM</a></li>
-                    <li><a class="dropdown-item" href="Serviciu-PSI-SU.html">PSI-SU</a></li>
-                    <li><a class="dropdown-item" href="Serviciu-Contract colectiv de munca.html">Contractul colectiv de muncă</a></li>
-					<li><a class="dropdown-item" href="Serviciu-Regulament intern.html">Regulamentul intern</a></li>
-					<li><a class="dropdown-item" href="Serviciu-Fisa postului.html">Fișa postului</a></li>
-                </ul>
-            </li>
-                      
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="contact.html">Contact</a>
-                        </li>
+        <!-- Brand -->
+        <a class="navbar-brand h1 d-flex align-items-center" href="index.html">
+            <img src="assets/img/apple-icon.png" alt="Logo" class="img-fluid me-2" style="width: 100px;">
+            <span class="text-dark h6 d-none d-md-inline">
+                Servicii Profesionale SSM și PSI - Tecuci
+            </span>
+        </a>
+
+        <!-- Toggler -->
+        <button class="navbar-toggler border-0" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbar-toggler-success"
+                aria-controls="navbar-toggler-success"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar content -->
+        <div class="collapse navbar-collapse" id="navbar-toggler-success">
+
+            <!-- Menu -->
+            <ul class="navbar-nav mx-auto text-center text-dark mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.html">
+                        Acasă
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.html">
+                        Despre noi
+                    </a>
+                </li>
+
+                <!-- Dropdown Servicii -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link btn-outline-primary rounded-pill px-3 dropdown-toggle"
+                       href="#"
+                       id="serviciiDropdown"
+                       role="button"
+                       data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Servicii
+                    </a>
+                    <ul class="dropdown-menu shadow" aria-labelledby="serviciiDropdown">
+                        <li><a class="dropdown-item" href="serviciu-ssm.html">SSM</a></li>
+                        <li><a class="dropdown-item" href="serviciu-psi-su.html">PSI-SU</a></li>
+                        <li><a class="dropdown-item" href="serviciu-contract-colectiv-de-munca.html">Contract colectiv de muncă</a></li>
+                        <li><a class="dropdown-item" href="serviciu-regulament-intern.html">Regulament intern</a></li>
+                        <li><a class="dropdown-item" href="serviciu-fisa-postului.html">Fișa postului</a></li>
                     </ul>
-                </div>
-                <div class="navbar align-self-center d-flex">
-                    <a class="nav-link" href="#"><i class='bx bx-bell bx-sm bx-tada-hover text-primary'></i></a>
-                    <a class="nav-link" href="#"><i class='bx bx-cog bx-sm text-primary'></i></a>
-                    <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-primary'></i></a>
-                </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link btn-outline-primary rounded-pill px-3" href="contact.html">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+            <!-- Icons -->
+            <div class="d-flex align-items-center">
+                <a class="nav-link" href="#"><i class='bx bx-bell bx-sm bx-tada-hover text-primary'></i></a>
+                <a class="nav-link" href="#"><i class='bx bx-cog bx-sm text-primary'></i></a>
+                <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-primary'></i></a>
             </div>
+
         </div>
-    </nav>
+    </div>
+</nav>
     <!-- Close Header -->
 
 
@@ -459,4 +489,5 @@
 
 
 </html>
+
 
