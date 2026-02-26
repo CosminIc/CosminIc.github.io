@@ -7,12 +7,12 @@
 
 /* Titlu banner */
 .banner-heading {
-    color: #6c757d !important; /* vechiul text-secondary */
+    color: #6266ea !important; /* vechiul text-secondary */
 }
 
 /* Text banner */
 .banner-body {
-    color: #6c757d !important;
+    color: #6266ea!important;
 }
 
 /* Buton banner */
@@ -28,5 +28,6 @@
 
 /* Indicatori carousel */
 .carousel-indicators [data-bs-target] {
-    background-color: #6c757d;
+    background-color: #6266ea;
 }
+
