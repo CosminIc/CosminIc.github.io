@@ -1,8 +1,32 @@
-/*
-Custom CSS for TemplateMo 561 Purple Buzz
+/* === FIX CULORI BANNERE DUPĂ MIGRAREA LA BOOTSTRAP 5 === */
 
-https://templatemo.com/tm-561-purple-buzz
+/* Fundal banner */
+.banner-wrapper {
+    background-color: #f8f9fa; /* exact ca BS4 */
+}
 
-*/
+/* Titlu banner */
+.banner-heading {
+    color: #6c757d !important; /* vechiul text-secondary */
+}
 
+/* Text banner */
+.banner-body {
+    color: #6c757d !important;
+}
 
+/* Buton banner */
+.banner-button.btn-outline-primary {
+    color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.banner-button.btn-outline-primary:hover {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+/* Indicatori carousel */
+.carousel-indicators [data-bs-target] {
+    background-color: #6c757d;
+}
