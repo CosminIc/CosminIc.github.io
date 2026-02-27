@@ -7,7 +7,7 @@
 
 /* Titlu banner */
 .banner-heading {
-    color: #6266ea !important; /* vechiul text-secondary */
+    color: #fff !important; /* vechiul text-secondary */
 }
 
 /* Text banner */
@@ -30,4 +30,5 @@
 .carousel-indicators [data-bs-target] {
     background-color: #6266ea;
 }
+
 
