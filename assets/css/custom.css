@@ -17,8 +17,8 @@
 
 /* Buton banner */
 .banner-button.btn-outline-primary {
-    color: #0d6efd;
-    border-color: #0d6efd;
+    color: #000000;
+    border-color: #000000;
 }
 
 .banner-button.btn-outline-primary:hover {
@@ -30,6 +30,7 @@
 .carousel-indicators [data-bs-target] {
     background-color: #6266ea;
 }
+
 
 
 
